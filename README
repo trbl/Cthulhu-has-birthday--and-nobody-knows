@@ -1,0 +1,34 @@
+-[3ln - Cthulhu has birthday, and nobody knows]-
+
+    [code + graphics] mog@trbl.at
+    [font] ne7.untergrund.net
+    [music] t-0
+
+Extra greetings to m0d who had the whole idea.
+
+Hey there, this is mog. The plan was to release this before the first of December,
+and after I rolled over it - the 6th of December.
+But you know, RL crashed in and demanded a bigger chunk of time than usual, leaving
+only time for small things which have be subsequentially added.
+
+Actually wanted to add quite a lot more, but hit a barrier with Firefox already being slow.
+Started to unroll loops, optimize here and there - but not much was won. So I started to
+wrap it all up, call it a day, let m0d carefully move things, get a shower, a coffee and maybe even some sleep.
+
+Mhhh, sleep...
+
+If you find a bug, or odd spots in the code you could do better (there are plenty!)
+just sent me a mail, or join the channel at IRCnet #3ln and let's discuss code :)
+
+
+Take care!
+
+2011-12-18 - le oh-so-famous 3ln brigade
+
+--
+
+Additional release notes:
+  - This demo is supposed to be run with a modern browser like Chrome, Firefox and Opera
+  - Please make sure you have JavaScript and Flash enabled for this
+  - This might not work when you don't have a local webserver
+  - For smoothness watch either in Opera or Chrome :)
