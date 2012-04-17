@@ -1,0 +1,116 @@
+body, html {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    background-color:#602324;
+}
+
+#background {
+    position:absolute;
+    top:-80px;
+    left:0;
+    width:100%;
+}
+#card,
+#greet,
+#scroller {
+    position: absolute;
+    -webkit-transform: skew(0,7deg);
+    -moz-transform: skew(0,7deg);
+    -o-transform: skew(0,7deg);
+    transform: skew(0,7deg);
+}
+
+#card {
+    width: 21.2%;
+    left: 50%;
+    margin-left:.52%;
+    box-shadow: 0 0 7px 10px #c5a187;
+}
+
+#greet {
+    left: 50%;
+    top: 298px;
+    width: 22%;
+    z-index: 1;
+}
+
+.spritemap,
+.hidden {
+    display:none;
+}
+
+#scroller {
+    display: inline-block;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast;
+    left: 50.5%;
+    top: 655px;
+    width: 21.5%;
+}
+
+#chirpNotes {
+    position:absolute;
+    left:42%;
+    width:9%;
+}
+
+#bird {
+    position: absolute;
+    left:41%;
+    width: 9%;
+}
+
+#bird img{
+    position: absolute;
+    width:100%;
+}
+.light {
+    position: absolute;
+    width: .6%;
+    height: 60px;
+    background: rgba(255, 255, 0, .3);
+    -webkit-border-radius: 120%;
+    -moz-border-radius: 120%;
+    -o-border-radius: 120%;
+    border-radius: 120%;
+    -webkit-box-shadow: 0 0 20px yellow;
+    -moz-box-shadow: 0 0 20px yellow;
+    -o-box-shadow: 0 0 20px yellow;
+    box-shadow: 0 0 20px yellow;
+    opacity:.2;
+}
+
+#lightGlow1 {
+    left: 14.6%;
+    top: 30px;
+}
+
+#lightGlow2 {
+    left: 37%;
+    top: 10px;
+}
+
+#lightGlow3 {
+    left: 53.4%;
+    top: 77px;
+}
+
+#hint {
+	position:absolute;
+    bottom:0;
+    right:0;
+    padding: .5%;
+    font-family: monospace;
+}
+
+#backTo3ln{
+
+    background: #c64c19;
+    
+    color:#ffffff;
+    
+}

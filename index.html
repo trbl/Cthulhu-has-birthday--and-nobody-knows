@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+-[3ln - Cthulhu has birthday, and nobody knows]-
+
+    [code + graphics] mog@trbl.at
+    [font] ne7.untergrund.net
+    [music] t-0
+
+Extra greetings to m0d who had the whole idea.
+
+Hey there, this is mog. The plan was to release this before the first of December,
+and after I rolled over it - the 6th of December.
+But you know, RL crashed in and demanded a bigger chunk of time than usual, leaving
+only time for small things which have be subsequentially added.
+
+Actually wanted to add quite a lot more, but hit a barrier with Firefox already being slow.
+Started to unroll loops, optimize here and there - but not much was won. So I started to
+wrap it all up, call it a day, let m0d carefully move things, get a shower, a coffee and maybe even some sleep.
+
+Mhhh, sleep...
+
+If you find a bug, or odd spots in the code you could do better (there are plenty!)
+just sent me a mail, or join the channel at IRCnet #3ln and let's discuss code :)
+
+
+Take care!
+
+2011-12-18 - le oh-so-famous 3ln brigade
+-->
+
+    <title>3ln - Cthulhu has birthday, and nobody knows</title>
+    <link rel="stylesheet" href="style/xmas.css">
+</head>
+<body>
+<img src="style/img/3ln_christmas.jpg" id="background">
+<img src="style/img/sprite_street1.png" id="street1" class="spritemap">
+<img src="style/img/sprite_street2.png" id="street2" class="spritemap">
+<img src="style/img/santa.png" id="santa" class="spritemap">
+<img src="style/img/tum_skyline.png" id="skyline" class="spritemap">
+<img src="style/img/flake.png" id="flake" class="spritemap">
+<img src="style/img/notes.png" id="note" class="spritemap">
+<img src="style/img/ne7-3LN_font_fill.png" id="texFont" class="spritemap">
+
+<div id="bird">
+    <img src="style/img/bird_feet.png">
+    <img src="style/img/bird_body.png" id="birdBody">
+    <img src="style/img/bird_head.png" id="birdHead">
+    <img src="style/img/bird_silent.png" id="birdSilent">
+    <img src="style/img/bird_chirp.png" style="display: none;" id="birdChirp">
+</div>
+<div id="lightGlow1" class="light"></div>
+<div id="lightGlow2" class="light"></div>
+<div id="lightGlow3" class="light"></div>
+<img src="style/img/merry_cthulhu.png" id="greet">
+<canvas id="card" width="400" height="300"></canvas>
+<canvas id="scroller" width="400" height="250"></canvas>
+<canvas id="chirpNotes" width="150" height="180"></canvas>
+
+<div class="hidden" id="scrollerText">                Friendly greetings dear beloved visitor! May you be around your loved ones at these times, and yes your computer counts as loved one. This delicious music you're currently enjoying is made by t-0. That precious, wobbly font is hand drawn by ne7. To be blamed for the code and braineating graphics is mog... Enjoy the bumpy ride while it lasts, sincerely yours with kindest regards mog. ... Oh hai there, this is mkC here wishing you a merry Cthulhu from all of us at the 3LN headquarters here in the North Pole! We've got a bunch of nifty presents to give to all of you scene folk! Let's go down the list: 1,000 ScenePoints for Saga Musix! For trbl, another cat! For ASD, 1 frozen trout! A timecube for bartoshe and ferry tickets for Bittin! For Paniq, a shotgun! For Okkie, a SHOTGUN DICK! Marriage counseling for Excess and Andromeda! Finally, lots of hugs for alk, dvs, las, ne7, t-0, MEE, Uip, cce, lft, nem, tnk, Quu, CME, m0d, P2E, urs, bpo, iks, rez, Ana, nhi, Ish, mch, mog, Sil, gun, pkj, and the rest of the 3LN massive!  ...has he gone yet? ok good, m0d here... :D Just wanted to say... We're fucking 3LN! and Merry Crimbololololol...     -EOS-        </div>
+<script src="js/sinterclass.js"></script>
+<script src="js/scaleThatShit.js"></script>
+<script src="js/chirp.js"></script>
+<script src="js/scroller.js"></script>
+<script src="js/soundmanager2-nodebug-jsmin.js"></script>
+<script src="js/trblMaker.js"></script>
+<div id="hint">please use a modern browser like Chrome | Firefox | Opera <a id="backTo3ln" href="../">Back to 3ln.eu</a></div>
+</body>
+</html>
